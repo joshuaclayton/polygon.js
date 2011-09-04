@@ -12,6 +12,10 @@ square.points;          // [[0,0], [2,0], [2,2], [0,2]]
 square.contains([1,1]); // true
 ```
 
+## Why?
+
+More advanced [geospatial querying in Mongo](http://www.mongodb.org/display/DOCS/Geospatial+Indexing#GeospatialIndexing-Querying) (I think?).
+
 ## License
 
 See LICENSE
