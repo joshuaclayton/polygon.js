@@ -19,6 +19,17 @@ describe("Polygon", function() {
     expect(polygon).toNotContain([4,5]);
   });
 
+  it("contains edges", function() {
+    var polygon = new Polygon(this.basicPolygon);
+    expect(polygon).toContain([0,0]);
+    expect(polygon).toContain([2,0]);
+    expect(polygon).toContain([4,0]);
+    expect(polygon).toContain([4,2]);
+    expect(polygon).toContain([4,4]);
+    expect(polygon).toContain([2,4]);
+    expect(polygon).toContain([0,4]);
+  });
+
   it("handle convex polygons", function() {
     var polygon = new Polygon(this.convexPolygon);
     expect(polygon.sides).toEqual(6)
