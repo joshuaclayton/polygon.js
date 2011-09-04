@@ -1,6 +1,6 @@
 # Polygon.js
 
-A polygon object written in Javascript. Provides `points`, `sides`, and `contains`. Handles simple polygons.
+A polygon object written in Javascript. Provides `points`, `sides`, and `contains`. Handles [simple polygons](http://en.wikipedia.org/wiki/Simple_polygon).
 
 ## Usage
 
